@@ -66,7 +66,7 @@ public class CartServiceIMPL implements ICartService{
         if (carts != null) {
 
             for (CartItem cart : carts.getListCartItem()) {
-                if (cart.getProduct().equals(cartItem.getProduct())) {
+                if (cart.getProduct().getProductId() ==cartItem.getProduct().getProductId()) {
                     cart.setQuantity(cart.getQuantity() + cartItem.getQuantity());
                     save(carts);
                     return true;
