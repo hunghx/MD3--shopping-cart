@@ -7,11 +7,11 @@ import java.util.Scanner;
 
 public class Config<T> {
     public static Scanner scanner = new Scanner(System.in);
-    public static final String PATH_CATALOG = "/Users/minhkhiet/javaMD3DINHVANKHIET/MD3project/src/ra/dataBase/Catalog.txt";
-    public static final String PATH_CART = "/Users/minhkhiet/javaMD3DINHVANKHIET/MD3project/src/ra/dataBase/Cart.txt";
-    public static final String PATH_PRODUCT = "/Users/minhkhiet/javaMD3DINHVANKHIET/MD3project/src/ra/dataBase/Product.txt";
-    public static final String PATH_USER = "/Users/minhkhiet/javaMD3DINHVANKHIET/MD3project/src/ra/dataBase/User.txt";
-    public static final String PATH_CURRENT_ACCOUNT = "/Users/minhkhiet/javaMD3DINHVANKHIET/MD3project/src/ra/dataBase/currentAccount.txt";
+    public static final String PATH_CATALOG = "E:\\JAVACORE\\MD3project\\src\\ra\\dataBase\\Catalog.txt";
+    public static final String PATH_CART = "E:\\JAVACORE\\MD3project\\src\\ra\\dataBase\\Cart.txt";
+    public static final String PATH_PRODUCT = "E:\\JAVACORE\\MD3project\\src\\ra\\dataBase\\Product.txt";
+    public static final String PATH_USER = "E:\\JAVACORE\\MD3project\\src\\ra\\dataBase\\User.txt";
+    public static final String PATH_CURRENT_ACCOUNT = "E:\\JAVACORE\\MD3project\\src\\ra\\dataBase\\currentAccount.txt";
     public List<T> readFromFile(String pathFile) {
         List<T> tList = new ArrayList<>();
         try {

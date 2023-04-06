@@ -86,8 +86,10 @@ public class Main {
                     new ProductView().ShowProduct();
                     break;
                 case 2:
+                    new  CartView().addCartItem();
                     break;
                 case 3:
+                    new CartView().showCart();
                     break;
                 case 4:
                     new UserView().updateUser();
